@@ -1,4 +1,4 @@
-require 'searchable'
+require_relative '../arlite_orm'
 
 describe 'Searchable' do
   before(:each) { DBConnection.reset }

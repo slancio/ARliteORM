@@ -1,4 +1,4 @@
-require 'associatable'
+require_relative '../arlite_orm'
 
 describe 'AssocOptions' do
   describe 'BelongsToOptions' do

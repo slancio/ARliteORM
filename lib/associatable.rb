@@ -1,7 +1,3 @@
-require_relative 'searchable'
-require_relative 'assoc_options'
-require_relative 'db_connection'
-
 module Associatable
   def belongs_to(name, options = {})
     self.assoc_options[name] = BelongsToOptions.new(name, options)

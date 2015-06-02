@@ -1,0 +1,8 @@
+# bundler state
+/.bundle
+/vendor/bundle
+/vendor/ruby
+
+# other files
+.rspec
+.ruby-version

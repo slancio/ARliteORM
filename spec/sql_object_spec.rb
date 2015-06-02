@@ -1,4 +1,4 @@
-require 'sql_object'
+require_relative '../arlite_orm'
 require 'securerandom'
 
 describe SQLObject do

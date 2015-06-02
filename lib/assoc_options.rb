@@ -1,5 +1,3 @@
-require 'active_support/inflector'
-
 class AssocOptions
   attr_accessor(
     :foreign_key,
