@@ -1,6 +1,6 @@
 # ARLiteORM
 
-Object-Relational Mapping using Ruby metaprogramming. Inspired by ActiveRecord
+Object-Relational Mapping using Ruby metaprogramming. Inspired by ActiveRecord.
 
 ## Current features include: 
 * SQL object - table_name, all, find, insert, update and save methods
@@ -41,4 +41,4 @@ cat.human #=> <#Human:0x007f9ba9897d98 @first_name="Fred", @last_name="Bloggs">
 
 ```
 
-Cheers!
+Enjoy!
