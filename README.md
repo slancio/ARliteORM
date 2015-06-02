@@ -10,7 +10,7 @@ Object-Relational Mapping using Ruby metaprogramming. Inspired by ActiveRecord.
 ## How to use:
 * Clone or Extract ZIP file of this repo into your project
 * In your code, require_relative './ARliteORM/arlite_orm'
-* To load your SQLite3 Database, call 'DBConnection.open(<PATH_TO_YOUR_DB_FILE>)'
+* To load your SQLite3 Database, call 'DBConnection.open(PATH_TO_YOUR_DB_FILE)'
 * Use the SQL object, Searchable and Association methods provided for manipulating and querying data.
 
 Here's an example using the included test database:
