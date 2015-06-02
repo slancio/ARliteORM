@@ -29,7 +29,7 @@ describe SQLObject do
 
   describe '::columns' do
     it '::columns gets the columns from the table and symbolizes them' do
-      expect(Cat.columns).to eq([:id, :name, :owner_id])
+      expect(Cat.columns).to eq([:id, :name, :owner_id, :cat_house_id])
     end
 
     it '::columns creates getter methods for each column' do
@@ -117,7 +117,7 @@ describe SQLObject do
     it '#attribute_values returns array of values' do
       cat = Cat.new(id: 123, name: 'cat1', owner_id: 1)
 
-      expect(cat.attribute_values).to eq([123, 'cat1', 1])
+      expect(cat.attribute_values).to eq([123, 'cat1', 1, nil])
     end
 
     it '#insert inserts a new record' do

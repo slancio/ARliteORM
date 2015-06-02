@@ -1,5 +1,6 @@
 require 'active_support/inflector'
 require 'sqlite3'
+require 'byebug'
 require './lib/searchable'
 require './lib/associatable'
 require './lib/assoc_options'
