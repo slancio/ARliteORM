@@ -7,6 +7,12 @@ Object-Relational Mapping using Ruby metaprogramming. Inspired by ActiveRecord.
 * Searchable - execute SQL WHERE queries while blocking SQL Injection
 * Associations - belongs_to, has_many, has_one_through and has_many_through associations
 
+## TODO
+* Implement `Relation` class and make `where` lazy and stackable.
+* Add an `includes` method that does pre-fetching.
+* `joins`
+* Validators
+
 ## How to use:
 * Clone or Extract ZIP file of this repo into your project
 * In your code, require_relative './ARliteORM/arlite_orm'
